@@ -53,6 +53,5 @@ def fibonacci():
         a, b = b, a + b
 
 
-f = fibonacci()
-fibonacci_sequence = [next(f) for _ in range(10)]
-print(fibonacci_sequence)
+fib = fibonacci()
+print([next(fib) for _ in range(10)])
